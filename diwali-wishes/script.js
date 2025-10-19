@@ -13,7 +13,7 @@ function showGreeting() {
   // username.textContent = `Hi ${name}, Pradumn this side. wishing you a very Happy Diwali !🪔🎆`;
  username.innerHTML = `
     Hi <b>${name}!</b><br>
-    Pradumn this side wishing you <br>
+    Pradum this side, wishing you <br>
     <span style="color:gold;"> a very Happy Diwali 🪔🎆</span>
 `;
 
