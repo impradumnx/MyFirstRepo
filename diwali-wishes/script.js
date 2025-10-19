@@ -10,7 +10,12 @@ function showGreeting() {
   }
 
 //   username.textContent = name;
-  username.textContent = `Hi ${name}, Pradumn this side. wishing you a very Happy Diwali !🪔🎆`;
+  // username.textContent = `Hi ${name}, Pradumn this side. wishing you a very Happy Diwali !🪔🎆`;
+ username.innerHTML = `
+    Hi <b>${name}!</b><br>
+    Pradumn this side wishing you <br>
+    <span style="color:gold;"> a very Happy Diwali 🪔🎆</span>
+`;
 
   greeting.classList.remove("hidden");
 
