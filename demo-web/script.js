@@ -1,4 +1,4 @@
-// select dom elements
+// selecting dom elements
 
 const input = document.getElementById('todo-input')
 const addbtn = document.getElementById('add-btn')
