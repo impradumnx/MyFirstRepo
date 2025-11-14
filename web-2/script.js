@@ -1,2 +1,4 @@
-let price = 19.99;
-let item ="car";
+function task(msg) {
+   return msg;
+}
+s = task("Hello, World!");
