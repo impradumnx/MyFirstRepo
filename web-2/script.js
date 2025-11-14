@@ -1,4 +1,13 @@
-function task(msg) {
-   return msg;
+// function task(msg) {
+//    return msg;
+// }
+// s = task("Hello, World!");
+let mode = "light";
+let color;
+if (mode === "dark"){
+    color = "black";
 }
-s = task("Hello, World!");
+else {
+    color = "white";
+}
+console.log(color);
