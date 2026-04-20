@@ -55,13 +55,22 @@
 // }
 // console.log((sum/marks.length).toFixed(2))
 
-let price = [250, 645, 300, 900, 50]
-console.log("Current Price : " + price)
+// let price = [250, 645, 300, 900, 50]
+// console.log("Current Price : " + price)
 
-let newPrice = [price.length]
+// let newPrice = [price.length]
 
-for(let i=0; i<price.length; i++){
-    let x = price[i] - (price[i]/10)
-    newPrice[i] = x
-}
-console.log("new price : " + newPrice)
+// for(let i=0; i<price.length; i++){
+//     let x = price[i] - (price[i]/10)
+//     newPrice[i] = x
+// }
+// console.log("new price : " + newPrice)
+
+// let price = [34, 54, 87, 23, 89, 97, 43]
+// console.log("currents price : " +price)
+// let newPrice = [price.length]
+// for(let i=0; i< price.length; i++){
+//     let x = price[i] - price[i]/10
+//     newPrice[i] = x
+// }
+// console.log("new price : "+newPrice)
